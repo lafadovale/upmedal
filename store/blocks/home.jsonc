@@ -1,0 +1,16 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text",
+      "slider-layout"
+    ]
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "Ok, página crua",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}
