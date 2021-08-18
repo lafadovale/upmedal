@@ -1,0 +1,16 @@
+.headerRowBackground {
+  background-color: #212121;
+  box-shadow: 5px 5px 9px -4px #000000;
+}
+
+.paragraphHeader {
+  font-size: 14px;
+}
+
+.headerContainer {
+  width: 100%;
+}
+
+.flexRowContent {
+  width: 100%;
+}

@@ -14,29 +14,62 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": ["header-row#tools", "header-row#menu"]
   },
-  "flex-layout.row#desktop": {
+  "header-row#tools": {
+    "children": ["flex-layout.row#tools"]
+  },
+  "flex-layout.row#tools": {
     "props": {
+      "paddingTop": "5",
+      "marginLeft": "5",
+      "marginRight": "5",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "colGap": "11"
     },
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
-      "login",
+      "flex-layout.col#spacer",
       "minicart.v2"
     ]
   },
-  "flex-layout.col#spacer": {
+  "search-bar": {
     "props": {
-      "width": "grow"
+      "width": "full"
     }
+  },
+  "header-row#menu": {
+    "children": ["flex-layout.row#menu"]
+  },
+  "flex-layout.row#menu": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "menu",
+      "colSizing": "equal",
+      "colGap": "9"
+    },
+    "children": [
+      "rich-text#menuItem1",
+      "rich-text#menuItem2",
+      "rich-text#menuItem3",
+      "rich-text#menuItem4",
+      "rich-text#menuItem5",
+      "rich-text#menuItem6",
+      "rich-text#menuItem7",
+      "rich-text#menuItem8",
+      "rich-text#menuItem9",
+      "rich-text#menuItem10"
+    ]
   },
   "flex-layout.col#logo-desktop": {
     "props": {
@@ -49,7 +82,62 @@
       "title": "Logo",
       "href": "/",
       "url": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/upmedal.png",
-      "width": "80"
+      "width": "150"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "rich-text#menuItem1": {
+    "props": {
+      "text": "PROMOÇÃO"
+    }
+  },
+  "rich-text#menuItem2": {
+    "props": {
+      "text": "CORINTHIANS"
+    }
+  },
+  "rich-text#menuItem3": {
+    "props": {
+      "text": "PALMEIRAS"
+    }
+  },
+  "rich-text#menuItem4": {
+    "props": {
+      "text": "SIGNOS"
+    }
+  },
+  "rich-text#menuItem5": {
+    "props": {
+      "text": "DIVERTIDOS"
+    }
+  },
+  "rich-text#menuItem6": {
+    "props": {
+      "text": "7 MARAVILHAS"
+    }
+  },
+  "rich-text#menuItem7": {
+    "props": {
+      "text": "GUERREIROS"
+    }
+  },
+  "rich-text#menuItem8": {
+    "props": {
+      "text": "ÁLBUM 1"
+    }
+  },
+  "rich-text#menuItem9": {
+    "props": {
+      "text": "ÁLBUM 2"
+    }
+  },
+  "rich-text#menuItem10": {
+    "props": {
+      "text": "ÁLBUM 3"
     }
   },
   "header-layout.mobile": {

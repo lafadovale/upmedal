@@ -1,1 +1,3 @@
-# Layout Upmedal.com
+# Upmedal.com website layout
+
+## Created with VTEX IO Framework
