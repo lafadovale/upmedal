@@ -9,14 +9,14 @@
     },
     "children": ["flex-layout.col#headerMenuItems"]
   },
-  "flex-layout.col#menuItems": {
+  "flex-layout.col#headerMenuItems": {
     "props": {
       "blockClass": "headerMenuItems",
-      "width": "80%"
+      "fullWidth": true
     },
     "children": ["tab-layout#headerMenu"]
   },
-  "tab-layout#menu": {
+  "tab-layout#headerMenu": {
     "children": ["tab-list#menu", "tab-content#menu"]
   },
   "tab-list#menu": {
@@ -26,7 +26,6 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "infinite": true,
       "blockClass": "menu",
       "responsive": true
     },
@@ -115,6 +114,7 @@
   },
   "tab-content#menu": {
     "children": [
+      "slider-layout#banners",
       "tab-content.item#1",
       "tab-content.item#2",
       "tab-content.item#3",
@@ -126,6 +126,33 @@
       "tab-content.item#9",
       "tab-content.item#10"
     ]
+  },
+  "slider-layout#banners": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#1", "image#2"]
+  },
+  "image#1": {
+    "props": {
+      "src": "assets/wood-sport-festival-banner.png",
+      "alt": "Banner Wood Sport Festival",
+      "maxHeight": "650"
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "assets/grandes-guerreiros-banner.png",
+      "alt": "Banner Grandes Guerreiros",
+      "maxHeight": "650"
+    }
   },
   "tab-content.item#1": {
     "children": ["search-result-layout.customQuery#promocao"],
@@ -158,7 +185,7 @@
     }
   },
   "tab-content.item#6": {
-    "children": ["search-result-layout.customQuery#7maravilhas"],
+    "children": ["search-result-layout.customQuery#maravilhas"],
     "props": {
       "tabId": "7maravilhas"
     }
@@ -185,36 +212,6 @@
     "children": ["search-result-layout.customQuery#album3"],
     "props": {
       "tabId": "album3"
-    }
-  },
-
-  // Slider Banners Context
-  
-  "list-context.image-list#banners": {
-    "props": {
-      "height": "650",
-      "images": [
-        {
-          "image": "assets/wood-sport-festival-banner.png",
-          "description": "Wood Sport Festival"
-        },
-        {
-          "image": "assets/grandes-guerreiros-banner.png",
-          "description": "Grandes Guerreiros"
-        }
-      ]
-    },
-    "children": ["slider-layout#slider"]
-  },
-  "slider-layout#banners": {
-    "props": {
-      "blockClass": "sliderBanners",
-      "infinite": true,
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      }
     }
   }
 }

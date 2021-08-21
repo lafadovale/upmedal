@@ -3,8 +3,9 @@
     "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
     "props": {
       "querySchema": {
-        "queryField": "promocao",
-        "orderByField": "OrderByTopSalesDESC",
+        // "queryField": "promocao",
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
         "mapField": "ft"
@@ -16,8 +17,9 @@
     "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
     "props": {
       "querySchema": {
-        "queryField": "corinthians",
-        "orderByField": "OrderByTopSalesDESC",
+        // "queryField": "22",
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
         "mapField": "ft"
@@ -29,8 +31,9 @@
     "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
     "props": {
       "querySchema": {
-        "queryField": "palmeiras",
-        "orderByField": "OrderByTopSalesDESC",
+        // "queryField": "palmeiras",
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
         "mapField": "ft"
@@ -42,8 +45,9 @@
     "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
     "props": {
       "querySchema": {
-        "queryField": "signos",
-        "orderByField": "OrderByTopSalesDESC",
+        // "queryField": "signos",
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
         "mapField": "ft"
@@ -55,8 +59,9 @@
     "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
     "props": {
       "querySchema": {
-        "queryField": "divertidos",
-        "orderByField": "OrderByTopSalesDESC",
+        // "queryField": "divertidos",
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
         "mapField": "ft"
@@ -68,8 +73,9 @@
     "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
     "props": {
       "querySchema": {
-        "queryField": "maravilhas",
-        "orderByField": "OrderByTopSalesDESC",
+        // "queryField": "maravilhas",
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
         "mapField": "ft"
@@ -81,8 +87,9 @@
     "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
     "props": {
       "querySchema": {
-        "queryField": "guerreiros",
-        "orderByField": "OrderByTopSalesDESC",
+        // "queryField": "guerreiros",
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
         "mapField": "ft"
@@ -94,8 +101,9 @@
     "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
     "props": {
       "querySchema": {
-        "queryField": "album1",
-        "orderByField": "OrderByTopSalesDESC",
+        // "queryField": "album1",
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
         "mapField": "ft"
@@ -107,8 +115,9 @@
     "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
     "props": {
       "querySchema": {
-        "queryField": "album2",
-        "orderByField": "OrderByTopSalesDESC",
+        // "queryField": "album2",
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
         "mapField": "ft"
@@ -120,8 +129,9 @@
     "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
     "props": {
       "querySchema": {
-        "queryField": "album3",
-        "orderByField": "OrderByTopSalesDESC",
+        // "queryField": "album3",
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
         "mapField": "ft"

@@ -1,8 +1,5 @@
-.headerContainer {
-  width: 100%;
-}
-
-.flexRowContent {
-  width: 100%;
+.listContainer {
   background-color: #212121;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }

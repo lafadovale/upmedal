@@ -1,19 +1,21 @@
 .listItem :global(.vtex-button) {
   background-color: transparent;
-  font-family: 'Montserrat', monospace;
+  font-family: monospace;
   font-size: 1.4rem;
   color: #fff;
-  border-radius: 0;
   margin: 0;
   padding: 0;
+  align-items: bottom;
 }
 .listItemActive :global(.vtex-button) {
- border: none;
- border-bottom: 2px solid #59FF00;
- border-radius: 0;
+  margin-bottom: 0;
+  border: none;
+  border-bottom: 2px solid #59FF00;
+  border-radius: 0;
 }
 .listContainer--menu {
   background-color: #212121;
   box-shadow: 5px 5px 9px -4px #000000;
-  margin-top: -1px;
+  margin: 0;
+  width: 100%;
 }

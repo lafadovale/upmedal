@@ -6,15 +6,12 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": ["sticky-layout#desktop"]
+    "children": ["sticky-layout#desktopHeader"]
   },
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": ["flex-layout.row#desktop"]
+  "sticky-layout#desktopHeader": {
+    "children": ["flex-layout.row#desktopHeader"]
   },
-  "flex-layout.row#desktop": {
+  "flex-layout.row#desktopHeader": {
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -54,7 +51,10 @@
       "autocomplete-result-list"
     ],
     "props": {
-      "width": "700"
+      "displayMode": "clear-button",
+      "compactMode": true,
+      "maxWidth": "700",
+      "openAutocompleteOnFocus": true
     }
   },
   "header-layout.mobile": {

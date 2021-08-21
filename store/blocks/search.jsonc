@@ -43,9 +43,9 @@
   },
   "flex-layout.col#right_search": {
     "props": {
-      "marginLeft":6,
+      "marginRight": 6,
       "preventVerticalStretch": true,
-      "width":"80%"
+      "fullWidth": true
     },
     "children": [
       "search-content"
