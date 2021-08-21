@@ -1,16 +1,220 @@
 {
-  "store.home": { 
-    "blocks": [
-      "rich-text",
-      "slider-layout"
+  "store.home": {
+    "blocks": ["flex-layout.row#headerMenu"]
+  },
+  "flex-layout.row#headerMenu": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+    },
+    "children": ["flex-layout.col#headerMenuItems"]
+  },
+  "flex-layout.col#menuItems": {
+    "props": {
+      "blockClass": "headerMenuItems",
+      "width": "80%"
+    },
+    "children": ["tab-layout#headerMenu"]
+  },
+  "tab-layout#menu": {
+    "children": ["tab-list#menu", "tab-content#menu"]
+  },
+  "tab-list#menu": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "infinite": true,
+      "blockClass": "menu",
+      "responsive": true
+    },
+    "children": [
+      "tab-list.item#1",
+      "tab-list.item#2",
+      "tab-list.item#3",
+      "tab-list.item#4",
+      "tab-list.item#5",
+      "tab-list.item#6",
+      "tab-list.item#7",
+      "tab-list.item#8",
+      "tab-list.item#9",
+      "tab-list.item#10"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "Ok, página crua",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+  "tab-list.item#1": {
+    "props": {
+      "tabId": "promocao",
+      "label": "PROMOÇÃO",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#2": {
+    "props": {
+      "tabId": "corinthians",
+      "label": "CORINTHIANS",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#3": {
+    "props": {
+      "tabId": "palmeiras",
+      "label": "PALMEIRAS",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#4": {
+    "props": {
+      "tabId": "signos",
+      "label": "SIGNOS",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#5": {
+    "props": {
+      "tabId": "divertidos",
+      "label": "DIVERTIDOS",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#6": {
+    "props": {
+      "tabId": "7maravilhas",
+      "label": "7 MARAVILHAS",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#7": {
+    "props": {
+      "tabId": "guerreiros",
+      "label": "GUERREIROS",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#8": {
+    "props": {
+      "tabId": "album1",
+      "label": "ÁLBUM 1",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#9": {
+    "props": {
+      "tabId": "album2",
+      "label": "ÁLBUM 2",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#10": {
+    "props": {
+      "tabId": "album3",
+      "label": "ÁLBUM 3",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-content#menu": {
+    "children": [
+      "tab-content.item#1",
+      "tab-content.item#2",
+      "tab-content.item#3",
+      "tab-content.item#4",
+      "tab-content.item#5",
+      "tab-content.item#6",
+      "tab-content.item#7",
+      "tab-content.item#8",
+      "tab-content.item#9",
+      "tab-content.item#10"
+    ]
+  },
+  "tab-content.item#1": {
+    "children": ["search-result-layout.customQuery#promocao"],
+    "props": {
+      "tabId": "promocao"
+    }
+  },
+  "tab-content.item#2": {
+    "children": ["search-result-layout.customQuery#corinthians"],
+    "props": {
+      "tabId": "corinthians"
+    }
+  },
+  "tab-content.item#3": {
+    "children": ["search-result-layout.customQuery#palmeiras"],
+    "props": {
+      "tabId": "palmeiras"
+    }
+  },
+  "tab-content.item#4": {
+    "children": ["search-result-layout.customQuery#signos"],
+    "props": {
+      "tabId": "signos"
+    }
+  },
+  "tab-content.item#5": {
+    "children": ["search-result-layout.customQuery#divertidos"],
+    "props": {
+      "tabId": "divertidos"
+    }
+  },
+  "tab-content.item#6": {
+    "children": ["search-result-layout.customQuery#7maravilhas"],
+    "props": {
+      "tabId": "7maravilhas"
+    }
+  },
+  "tab-content.item#7": {
+    "children": ["search-result-layout.customQuery#guerreiros"],
+    "props": {
+      "tabId": "guerreiros"
+    }
+  },
+  "tab-content.item#8": {
+    "children": ["search-result-layout.customQuery#album1"],
+    "props": {
+      "tabId": "album1"
+    }
+  },
+  "tab-content.item#9": {
+    "children": ["search-result-layout.customQuery#album2"],
+    "props": {
+      "tabId": "album2"
+    }
+  },
+  "tab-content.item#10": {
+    "children": ["search-result-layout.customQuery#album3"],
+    "props": {
+      "tabId": "album3"
+    }
+  },
+
+  // Slider Banners Context
+  
+  "list-context.image-list#banners": {
+    "props": {
+      "height": "650",
+      "images": [
+        {
+          "image": "assets/wood-sport-festival-banner.png",
+          "description": "Wood Sport Festival"
+        },
+        {
+          "image": "assets/grandes-guerreiros-banner.png",
+          "description": "Grandes Guerreiros"
+        }
+      ]
+    },
+    "children": ["slider-layout#slider"]
+  },
+  "slider-layout#banners": {
+    "props": {
+      "blockClass": "sliderBanners",
+      "infinite": true,
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      }
     }
   }
 }

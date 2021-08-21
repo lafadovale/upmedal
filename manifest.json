@@ -3,6 +3,7 @@
   "name": "lafaupmedal",
   "version": "1.0.0",
   "builders": {
+    "assets": "0.x",
     "styles": "2.x",
     "store": "0.x",
     "docs": "0.x"
@@ -32,7 +33,6 @@
     "vtex.responsive-layout": "0.x",
     "vtex.rich-text": "0.x",
     "vtex.search-result": "3.x",
-    "vtex.search-graphql": "0.x",
     "vtex.shelf": "1.x",
     "vtex.slider": "0.x",
     "vtex.slider-layout": "0.x",
@@ -42,11 +42,11 @@
     "vtex.store-components": "3.x",
     "vtex.store-drawer": "0.x",
     "vtex.store-header": "2.x",
+    "vtex.store-icons": "0.x",
     "vtex.store-footer": "2.x",
     "vtex.styleguide": "9.x",
     "vtex.tab-layout": "0.x",
-    "vtex.telemarketing": "2.x",
-    "vtex.wish-list": "1.x"
+    "vtex.telemarketing": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
