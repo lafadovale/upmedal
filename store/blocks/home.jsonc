@@ -1,32 +1,18 @@
 {
   "store.home": {
-    "blocks": ["flex-layout.row#headerMenu"]
+    "blocks": ["tab-layout"]
   },
-  "flex-layout.row#headerMenu": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center"
-    },
-    "children": ["flex-layout.col#headerMenuItems"]
+  "tab-layout": {
+    "children": ["tab-list#headerMenu", "tab-content#body"]
   },
-  "flex-layout.col#headerMenuItems": {
-    "props": {
-      "blockClass": "headerMenuItems",
-      "fullWidth": true
-    },
-    "children": ["tab-layout#headerMenu"]
-  },
-  "tab-layout#headerMenu": {
-    "children": ["tab-list#menu", "tab-content#menu"]
-  },
-  "tab-list#menu": {
+  "tab-list#headerMenu": {
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
       "fullWidth": true,
-      "blockClass": "menu",
+      "blockClass": "header",
       "responsive": true
     },
     "children": [
@@ -112,7 +98,7 @@
       "defaultActiveTab": false
     }
   },
-  "tab-content#menu": {
+  "tab-content#body": {
     "children": [
       "slider-layout#banners",
       "tab-content.item#1",

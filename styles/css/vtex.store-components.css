@@ -6,8 +6,14 @@
 .searchBarContainer {
   width: 700px;
   border: none;
-  border-radius: 8px;
+  border-radius: 15px;
 }
 .searchIcon {
   color: #59FF00;
+}
+.flexRow {
+  padding: 0;
+}
+.imageElement {
+  border-radius: 20px;
 }

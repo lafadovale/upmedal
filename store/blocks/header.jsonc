@@ -13,6 +13,7 @@
   },
   "flex-layout.row#desktopHeader": {
     "props": {
+      "blockClass": "header",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,

@@ -1,3 +1,9 @@
 .paginationDot--isActive {
   background-color: #59FF00;
 }
+.sliderLayoutContainer--carousel {
+  background-color: transparent;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+}
