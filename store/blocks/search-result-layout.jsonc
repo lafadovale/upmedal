@@ -7,7 +7,6 @@
     ],
     "props": {
       "querySchema": {
-        "queryField": "promocao",
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "hideUnavailableItems": true,

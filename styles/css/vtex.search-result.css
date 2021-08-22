@@ -1,0 +1,14 @@
+.gallery {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.galleryItem {
+  width: 450px;
+  background-color: #424242;
+  padding: 0px;
+}
