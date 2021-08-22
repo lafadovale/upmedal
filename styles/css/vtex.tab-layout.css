@@ -20,10 +20,15 @@
   width: 100vw;
   z-index: 998;
   margin-bottom: 30px;
+  position: fixed;
 }
 .contentContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 79px;
+}
+.contentItem {
+  padding-top: 50px;
 }

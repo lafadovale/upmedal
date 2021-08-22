@@ -1,5 +1,14 @@
+.paginationDot {
+  position: relative;
+  top: 53px;
+}
 .paginationDot--isActive {
   background-color: #59FF00;
+}
+.caretIcon {
+  position: relative;
+  top: 272px;
+  color: #59ff00;
 }
 .sliderLayoutContainer--carousel {
   background-color: transparent;
