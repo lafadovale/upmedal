@@ -1,9 +1,13 @@
 {
   "search-result-layout.customQuery#promocao": {
-    "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
+    "blocks": [
+      "search-result-layout.desktop#desktopResultBody",
+      "search-result-layout.mobile#mobileResultBody",
+      "search-not-found-layout"
+    ],
     "props": {
       "querySchema": {
-        // "queryField": "promocao",
+        "queryField": "promocao",
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "hideUnavailableItems": true,
@@ -15,10 +19,14 @@
     }
   },
   "search-result-layout.customQuery#corinthians": {
-    "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
+    "blocks": [
+      "search-result-layout.desktop#desktopResultBody",
+      "search-result-layout.mobile#mobileResultBody",
+      "search-not-found-layout"
+    ],
     "props": {
       "querySchema": {
-        // "queryField": "22",
+        "queryField": "corinthians",
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "hideUnavailableItems": true,
@@ -30,10 +38,14 @@
     }
   },
   "search-result-layout.customQuery#palmeiras": {
-    "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
+    "blocks": [
+      "search-result-layout.desktop#desktopResultBody",
+      "search-result-layout.mobile#mobileResultBody",
+      "search-not-found-layout"
+    ],
     "props": {
       "querySchema": {
-        // "queryField": "palmeiras",
+        "queryField": "palmeiras",
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "hideUnavailableItems": true,
@@ -45,10 +57,14 @@
     }
   },
   "search-result-layout.customQuery#signos": {
-    "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
+    "blocks": [
+      "search-result-layout.desktop#desktopResultBody",
+      "search-result-layout.mobile#mobileResultBody",
+      "search-not-found-layout"
+    ],
     "props": {
       "querySchema": {
-        // "queryField": "signos",
+        "queryField": "signos",
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "hideUnavailableItems": true,
@@ -60,10 +76,14 @@
     }
   },
   "search-result-layout.customQuery#divertidos": {
-    "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
+    "blocks": [
+      "search-result-layout.desktop#desktopResultBody",
+      "search-result-layout.mobile#mobileResultBody",
+      "search-not-found-layout"
+    ],
     "props": {
       "querySchema": {
-        // "queryField": "divertidos",
+        "queryField": "divertidos",
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "hideUnavailableItems": true,
@@ -75,10 +95,13 @@
     }
   },
   "search-result-layout.customQuery#maravilhas": {
-    "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
+    "blocks": [
+      "search-result-layout.desktop#desktopResultBody",
+      "search-result-layout.mobile#mobileResultBody",
+      "search-not-found-layout"],
     "props": {
       "querySchema": {
-        // "queryField": "maravilhas",
+        "queryField": "maravilhas",
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "hideUnavailableItems": true,
@@ -90,10 +113,14 @@
     }
   },
   "search-result-layout.customQuery#guerreiros": {
-    "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
+    "blocks": [
+      "search-result-layout.desktop#desktopResultBody",
+      "search-result-layout.mobile#mobileResultBody",
+      "search-not-found-layout"
+    ],
     "props": {
       "querySchema": {
-        // "queryField": "guerreiros",
+        "queryField": "guerreiros",
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "hideUnavailableItems": true,
@@ -105,10 +132,14 @@
     }
   },
   "search-result-layout.customQuery#album1": {
-    "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
+    "blocks": [
+      "search-result-layout.desktop#desktopResultBody",
+      "search-result-layout.mobile#mobileResultBody",
+      "search-not-found-layout"
+    ],
     "props": {
       "querySchema": {
-        // "queryField": "album1",
+        "queryField": "album1",
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "hideUnavailableItems": true,
@@ -120,10 +151,14 @@
     }
   },
   "search-result-layout.customQuery#album2": {
-    "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
+    "blocks": [
+      "search-result-layout.desktop#desktopResultBody",
+      "search-result-layout.mobile#mobileResultBody",
+      "search-not-found-layout"
+    ],
     "props": {
       "querySchema": {
-        // "queryField": "album2",
+        "queryField": "album2",
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "hideUnavailableItems": true,
@@ -135,10 +170,14 @@
     }
   },
   "search-result-layout.customQuery#album3": {
-    "blocks": ["search-result-layout.desktop#desktopResultBody", "search-result-layout.mobile#mobileResultBody", "search-not-found-layout"],
+    "blocks": [
+      "search-result-layout.desktop#desktopResultBody",
+      "search-result-layout.mobile#mobileResultBody",
+      "search-not-found-layout"
+    ],
     "props": {
       "querySchema": {
-        // "queryField": "album3",
+        "queryField": "album3",
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip",
         "hideUnavailableItems": true,

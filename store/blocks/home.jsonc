@@ -130,14 +130,14 @@
     "props": {
       "src": "assets/wood-sport-festival-banner.png",
       "alt": "Banner Wood Sport Festival",
-      "maxHeight": "650"
+      "width": "100%"
     }
   },
   "image#2": {
     "props": {
       "src": "assets/grandes-guerreiros-banner.png",
       "alt": "Banner Grandes Guerreiros",
-      "maxHeight": "650"
+      "width": "100%"
     }
   },
   "tab-content.item#1": {
